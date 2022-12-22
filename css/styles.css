@@ -1,0 +1,250 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-white-color: #f5f5f5;
+  --secondary-white-color: #f5f4fa;
+  --white-bg-color: #ffffff;
+  --dark-bg-color: #2f303a;
+  --blue-bg-color: #2196f3;
+  --bg-btn-color: #188ce8;
+}
+
+body {
+  background: var(--white-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* Навигація */
+.header {
+  background-color: var(--white-bg-color);
+}
+
+.logo {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.accent {
+  color: var(--blue-bg-color);
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.current {
+  color: var(--blue-bg-color);
+}
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--blue-bg-color);
+}
+
+.contacts .number {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* герой */
+
+.hero {
+  background-color: var(--dark-bg-color);
+  color: var(--white-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button.primary {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  font-family: inherit;
+  text-align: center;
+  background-color: var(--blue-bg-color);
+  color: var(--white-bg-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--bg-btn-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* кнопки портфолио */
+.button.secondary {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  background-color: var(--secondary-white-color);
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--blue-bg-color);
+  color: var(--white-bg-color);
+}
+
+/* Особливості */
+
+.list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.list-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+/* Чим ми займаемось */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+
+  text-align: center;
+}
+
+/* Наша команда */
+
+.our-team {
+  background-color: var(--secondary-white-color);
+}
+
+.our-team-li {
+  background-color: var(--white-bg-color);
+}
+
+.photo-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.photo-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* Наші проекти */
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.projects-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--dark-bg-color);
+}
+
+.logo.footer {
+  color: var(--white-bg-color);
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address-a {
+  color: var(--white-bg-color);
+  text-decoration: none;
+}
+
+.footer.link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer.link:hover,
+.footer.link:focus {
+  color: var(--blue-bg-color);
+}
